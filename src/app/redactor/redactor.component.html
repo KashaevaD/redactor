@@ -1,0 +1,7 @@
+ <div class="form-group__input"
+           [innerHtml]="editor"
+           id="redactor"
+           #red
+           (click)="activateRedactor(red.id)"
+           [ngClass]="{'redactor--isEmpty':isEmptyValue}">
+ </div>

@@ -1,0 +1,22 @@
+.redactor {
+  position: relative;
+  display: block;
+  .redactor-editor {
+    min-height: 60px;
+  }
+  p {
+    margin-bottom: 0px;
+  }
+  &--isEmpty {
+    &::after {
+      content: 'Type possibility text here';
+      display: block;
+    }
+  }
+}
+
+.form-group__input {
+  padding: 20px;
+  border: #eee solid 1px;
+  box-sizing: border-box;
+}
