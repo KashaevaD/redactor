@@ -6,10 +6,12 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { RedactorComponent } from './redactor/redactor.component';
 import { RedactorService } from './redactor/redactor.service';
+import { RedactorEditorComponent } from './redactor-editor/redactor-editor.component';
 @NgModule({
   declarations: [
     AppComponent,
-    RedactorComponent
+    RedactorComponent,
+    RedactorEditorComponent
   ],
   imports: [
     BrowserModule,
